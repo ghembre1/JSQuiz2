@@ -24,5 +24,5 @@ document.getElementById("cValue").onchange = function(){
 //step 6
 document.getElementById("fValue").onchange = function(){
       let fDegree = document.getElementById("fValue").value
-      document.getElementById("cValue").value = FarenheitToCelsius(fDegree)
+      document.getElementById("cValue").value = FahrenheitToCelsius(fDegree)
 }
